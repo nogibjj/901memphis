@@ -1,5 +1,5 @@
 from transformers import pipeline
-#enter the task for pipleine
+#enter the task for pipleine, uses the default model
 classifier = pipeline("sentiment-analysis")
 #apply classifier and enter the data 
 res =classifier("I have been waiting for a HuggingFace course all my life")
